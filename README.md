@@ -34,7 +34,7 @@ Username: leigh-plt
 
 Data folder must contained downloaded files HHHR and MODIS or full evaluation dataset.
 !MODIS data after 2022/03/30 obtained from Terra spacecraft and renamed as MYD10A1 to simplify execution scripts.
-`
+```
 └── data
     ├── evaluation_dataset.nc                  <- must containing constant field soil and dem
     ├── hrrr
@@ -46,7 +46,7 @@ Data folder must contained downloaded files HHHR and MODIS or full evaluation da
     └── modis
         └── MYD10A1
             └── ...
-`
+```
 3. Data loading:
   [Training dataset](https://drive.google.com/file/d/1byzZadHONRHZZ0E9kQksP_ZOhhHmABNt/view?usp=sharing) from google drive.
   After 03/30/22 [Aqua Safe Mode Alert](https://lpdaac.usgs.gov/news/aqua-safe-mode-alert/) as source of modis data use Terra spacecraft.
