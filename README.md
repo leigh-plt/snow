@@ -70,5 +70,5 @@ Inference time: 15-20 mins with updates dataset for each date.
 # Run inference
   For inference build docker image "model:base" by path "images/model/Dockerfile".
   For evaluation date run command:
-    `docker run -v inference/data:/data model:base python /data/estimate.py -d 2022-02-10T20:00:00.000000+00:00 --format_file /data/submission_format.csv`
-    ! format_file will be overridden and headers must contain "date" for evaluation.
+    ```docker run -v inference/data:/data model:base python /data/estimate.py -d 2022-02-10T20:00:00.000000+00:00 --format_file /data/submission_format.csv```
+    !format_file will be overridden and headers must contain "date" for evaluation.
